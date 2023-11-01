@@ -30,13 +30,13 @@ Siga estas etapas para executar o projeto em sua máquina:
 1. Clone o repositório
 
 ```sh
-git clone https://github.com/FelipeSantos92Dev/demon-slayer.git
+git clone https://github.com/FelipeSantos92Dev/futebol-brasileiro.git
 ```
 
 2. Navegue para o diretório do projeto:
 
 ```sh
-cd demon-slayer
+cd futebol-brasileiro
 ```
 
 3. Instale as dependências:
@@ -64,10 +64,10 @@ DATABASE_URL=postgres://seu_usuario:senha@localhost/seu_banco_de_dados
 
 ## Desenvolvimento de Novas Features
 
-- [] Criação de pasta na nuvem para armazenamento de imagens
-- [] Conexão com o banco de dados
-- [] Criação do model de times de futebol
-- [] Criação dos endpoints de times de futebol
+- [x] Criação de pasta na nuvem para armazenamento de imagens
+- [x] Conexão com o banco de dados
+- [x] Criação do model de times de futebol
+- [x] Criação dos endpoints de times de futebol
 - [ ] Criação do design do site utilizando o Figma
 - [ ] Desenvolvimento de páginas de lista dos times de futebol
 - [ ] Desenvolvimento de páginas de detalhes dos times de futebol
