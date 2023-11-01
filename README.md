@@ -23,15 +23,6 @@ Antes de executar o projeto, certifique-se de ter as seguintes ferramentas insta
 - Node.js
 - PostgreSQL
 
-## Configuração do Banco de Dados
-
-Certifique-se de configurar o PostgreSQL e ajustar as configurações de conexão no arquivo de configuração.
-
-```sh
-# Exemplo de configuração do banco de dados
-DATABASE_URL=postgres://seu_usuario:senha@localhost/seu_banco_de_dados
-```
-
 ## Instalação e Uso
 
 Siga estas etapas para executar o projeto em sua máquina:
@@ -62,12 +53,21 @@ yarn dev
 
 Acesse o aplicativo em seu navegador em http://localhost:3000.
 
+## Configuração do Banco de Dados
+
+Certifique-se de configurar o PostgreSQL e ajustar as configurações de conexão no arquivo de configuração.
+
+```sh
+# Exemplo de configuração do banco de dados
+DATABASE_URL=postgres://seu_usuario:senha@localhost/seu_banco_de_dados
+```
+
 ## Desenvolvimento de Novas Features
 
-- [x] Criação de pasta na nuvem para armazenamento de imagens
-- [x] Conexão com o banco de dados
-- [x] Criação do model de times de futebol
-- [x] Criação dos endpoints de times de futebol
+- [] Criação de pasta na nuvem para armazenamento de imagens
+- [] Conexão com o banco de dados
+- [] Criação do model de times de futebol
+- [] Criação dos endpoints de times de futebol
 - [ ] Criação do design do site utilizando o Figma
 - [ ] Desenvolvimento de páginas de lista dos times de futebol
 - [ ] Desenvolvimento de páginas de detalhes dos times de futebol
